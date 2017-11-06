@@ -1,0 +1,7 @@
+This software can be installed on any system by following steps
+1. install miniconda
+2. conda env create -f environment.yml to regenerate the environment on the computer
+   (for windows, one may need not find be able to install exact libraries from environment file, but all of them should have a seperate conda      	installation of corresponding windows binareis available with conda package manager, search and install them)
+3. install shape detector model from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 and extract it in project dir
+4. run the file by giving proper arguments
+   run "python lbp_start.py -h" for more info
